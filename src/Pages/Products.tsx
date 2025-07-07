@@ -31,16 +31,16 @@ const productData = [
     image: "/Img/manned.png",
     count: 1,
   },
-  {
-    name: "Accessories",
-    image: "/Img/accessories.png",
-    count: 21,
-  },
-  {
-    name: "Mount Devices",
-    image: "/Img/mount.png",
-    count: 29,
-  },
+//   {
+//     name: "Accessories",
+//     image: "/Img/accessories.png",
+//     count: 21,
+//   },
+//   {
+//     name: "Mount Devices",
+//     image: "/Img/mount.png",
+//     count: 29,
+//   },
 ];
 
 const Products: React.FC = () => {
