@@ -2252,9 +2252,10 @@
 
 
 import React, { useState, useEffect } from 'react';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+// import Navbar from '../Components/Navbar';
+// import Footer from '../Components/Footer';
 import Products from './Products';
+
 
 // Define the type for tab keys
 type TabKey = 'Cleaning' | 'Agriculture' | 'Transport' | 'Firefighting';
@@ -2418,7 +2419,7 @@ const HomePage: React.FC = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Hero Section */}
       <section style={getResponsiveStyles(heroStyles.heroSection, 'heroSection')}>
         <video style={getResponsiveStyles(heroStyles.video, 'video')} autoPlay loop muted playsInline>
@@ -2592,7 +2593,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Footer Section */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
