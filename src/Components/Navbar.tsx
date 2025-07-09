@@ -53,9 +53,9 @@ const Navbar: React.FC = () => {
           News
         </NavLink>
 
-        <Link to="/order" onClick={closeMenu} className="order-button mobile-only">
+        {/* <Link to="/order" onClick={closeMenu} className="order-button mobile-only">
           Order Now
-        </Link>
+        </Link> */}
       </div>
 
       <div className="navbar-right desktop-only">

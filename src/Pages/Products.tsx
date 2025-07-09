@@ -1,5 +1,5 @@
 import React from "react";
-
+import Footer from "../Components/Footer";
 const productData = [
   {
     name: "Agricultural Drone",
@@ -27,18 +27,28 @@ const productData = [
     count: 3,
   },
   {
-    name: "Manned Drone",
+    name: "FPV Drone",
     image: "/Img/manned.png",
     count: 1,
   },
   {
-    name: "Accessories",
-    image: "/Img/accessories.png",
+    name: "Kamikaze Drone",
+    image: "/Img/longrange.png",
     count: 21,
   },
   {
-    name: "Mount Devices",
-    image: "/Img/mount.png",
+    name: "Seedcopter Drone",
+    image: "/Img/cleaning.png",
+    count: 29,
+  },
+  {
+    name: "Surveillance Drone",
+    image: "/Img/transport.png",
+    count: 29,
+  },
+  {
+    name: "Tethered Drone",
+    image: "/Img/manned.png",
     count: 29,
   },
 ];
@@ -60,7 +70,7 @@ const Products: React.FC = () => {
     </div>
   );
 };
-
+ <Footer />
 export default Products;
 
 // ------------------
