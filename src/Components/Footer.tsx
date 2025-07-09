@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div style={styles.bottomText}>
-        © 2025 Skytech UAV All Rights Reserved.
+        © 2025 Abhyuday Group All Rights Reserved.
       </div>
     </footer>
   );
